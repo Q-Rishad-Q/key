@@ -375,15 +375,16 @@ def send_command_help() -> t.NoneType:
         symbol_02: str = f"{cl.Fore.YELLOW}{chr(166)}{cl.Style.RESET_ALL}"
 
         help_text: str = f"""
-    {symbol_01} {'sys-info':<15} {symbol_02} Displays the system info
-    {symbol_01} {'lock-screen':<15} {symbol_02} Locks the current user screen
-    {symbol_01} {'screenshot':<15} {symbol_02} Takes a screenshot
-    {symbol_01} {'screen-record':<15} {symbol_02} Records the screen
-    {symbol_01} {'snapshot':<15} {symbol_02} Takes a snapshot
-    {symbol_01} {'webcam-record':<15} {symbol_02} Records the webcam
-    {symbol_01} {'shell':<15} {symbol_02} Opens the shell
-    {symbol_01} {'clear':<15} {symbol_02} Clears the terminal
-    {symbol_01} {'bg':<15} {symbol_02} Creates a background session
+    {symbol_01} {'sys-info':<20} {symbol_02} Displays the system info
+    {symbol_01} {'lock-screen [time]':<20} {symbol_02} Locks the current user screen
+    {symbol_01} {'screenshot':<20} {symbol_02} Takes a screenshot
+    {symbol_01} {'screen-record [time]':<20} {symbol_02} Records the screen
+    {symbol_01} {'snapshot':<20} {symbol_02} Takes a snapshot
+    {symbol_01} {'webcam-record [time]':<20} {symbol_02} Records the webcam
+    {symbol_01} {'download [src] [dst]':<20} {symbol_02} Downloads a file from the internet
+    {symbol_01} {'shell':<20} {symbol_02} Opens the shell
+    {symbol_01} {'clear':<20} {symbol_02} Clears the terminal
+    {symbol_01} {'bg':<20} {symbol_02} Creates a background session
     """
 
         print(help_text)

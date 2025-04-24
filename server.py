@@ -314,7 +314,7 @@ def shell() -> t.NoneType:
                 print()
                 return
 
-            elif cmd == "clear":
+            elif cmd == "cls":
                 os.system("clear")
                 send_str(" ")
 
